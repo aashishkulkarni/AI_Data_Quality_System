@@ -1,0 +1,33 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Environment and secrets
+.env
+.env.local
+*.env
+
+# Database (generated at runtime)
+data/quality.db
+data/*.db
+
+# IDE and OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Output (optional: uncomment to ignore generated reports)
+# output/
